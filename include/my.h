@@ -6,7 +6,7 @@
 */
 
 #ifndef __MY_H__
-# define __MY_H__
+#define __MY_H__
 
 char *concat_params(int a, char *b);
 int my_compute_power_rec(int a, int b);
@@ -55,7 +55,7 @@ int my_printf(char *str, ...);
 char *long_to_hexadecimal(int long a);
 char into_else(char *result, char const *base, int len_base, int nb);
 char *my_put_nbr_base(int nb, char const *base);
-int  no_printable(char *str);
+int no_printable(char *str);
 void convert(int number);
 
 #endif
